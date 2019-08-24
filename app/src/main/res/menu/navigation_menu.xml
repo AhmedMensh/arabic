@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:title="@string/test"
+        android:id="@+id/question"
+        android:icon="@drawable/ic_test"/>
+
+    <item android:title="@string/settings"
+        android:id="@+id/settings"
+        android:icon="@drawable/ic_settings"/>
+
+
+    <item android:title="@string/common_words"
+        android:id="@+id/common_words"
+        android:icon="@drawable/ic_study"/>
+
+
+    <item android:title="@string/about_us"
+        android:id="@+id/about_us"
+        android:icon="@drawable/ic_about"/>
+    />
+
+</menu>

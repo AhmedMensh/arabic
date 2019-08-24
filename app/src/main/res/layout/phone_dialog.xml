@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@drawable/rounded_corners_grey"
+    android:layout_margin="@dimen/_8sdp"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/_8sdp"
+        android:gravity="center"
+        android:text="@string/select_number"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/_16sdp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/we_phone_number_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_margin="@dimen/_8sdp"
+        android:gravity="start"
+        android:text="@string/we_phone_number"
+        android:textColor="@android:color/black"
+
+        android:textSize="@dimen/_16sdp" />
+
+    <TextView
+        android:id="@+id/orange_phone_number_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_margin="@dimen/_8sdp"
+        android:gravity="start"
+        android:text="@string/orange_phone_number"
+        android:textColor="@android:color/black"
+
+        android:textSize="@dimen/_16sdp" />
+</LinearLayout>

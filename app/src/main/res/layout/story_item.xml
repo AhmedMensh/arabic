@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:padding="0dp">
+
+    <RelativeLayout
+        android:padding="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/story_image"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/story1" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/story_number"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            app:civ_border_width="1dp"
+            app:civ_border_color="#A9A9A9"
+            android:layout_alignBottom="@+id/story_image"
+            android:layout_alignEnd="@+id/story_image"
+            android:src="@drawable/story1" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="4dp">
+
+        <TextView
+            android:id="@+id/story_title_english_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:text="english subtitle"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/story_title_arabic_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_weight="1"
+            android:text="arabic subtitle"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:background="#A9A9A9" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
