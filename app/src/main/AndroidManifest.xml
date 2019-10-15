@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.mostafa.myapplication">
+    package="com.android.ahmed.arabic">
 
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <application
         android:allowBackup="true"
         android:hardwareAccelerated="false"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/ic_books"
         android:label="@string/app_name"
         android:largeHeap="true"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/ic_books"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".AboutActivity"
+        <activity android:name="com.android.ahmed.arabic.AboutActivity"
             android:screenOrientation="portrait">
 
         </activity>
-        <activity android:name=".SplashActivity"
+        <activity android:name="com.android.ahmed.arabic.SplashActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,25 +26,25 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name="com.android.ahmed.arabic.MainActivity"
             android:screenOrientation="portrait">
 
         </activity>
         <activity
-            android:name=".SubStoriesActivity"
+            android:name="com.android.ahmed.arabic.SubStoriesActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".StoryDetailActivity"
-            android:parentActivityName=".SubStoriesActivity"
+            android:name="com.android.ahmed.arabic.StoryDetailActivity"
+            android:parentActivityName="com.android.ahmed.arabic.SubStoriesActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".SettingActivity"
+            android:name="com.android.ahmed.arabic.SettingActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".CommonWordsActivity"
+            android:name="com.android.ahmed.arabic.CommonWordsActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".QuestionActivity"
+            android:name="com.android.ahmed.arabic.QuestionActivity"
             android:screenOrientation="portrait" />
     </application>
 

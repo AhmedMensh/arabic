@@ -90,13 +90,7 @@
     </RadioGroup>
 
 
-    <ImageView
-        android:id="@+id/next_question_iv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="end"
-        android:layout_margin="@dimen/_20sdp"
-        android:background="@drawable/ic_phone"/>
+
     <TextView
         android:id="@+id/score_tv"
         android:layout_width="match_parent"
