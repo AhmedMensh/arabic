@@ -25,7 +25,7 @@
                 android:id="@+id/story_rv"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
-
+                tools:listitem="@layout/story_item"
                 android:layout_weight="1"
                 android:background="?attr/colorBackgroundFloating"/>
 
@@ -39,7 +39,6 @@
             android:layout_gravity="start"
             app:menu="@menu/navigation_menu"
             android:theme="@style/NavigationTheme"
-
             app:headerLayout="@layout/header"
             >
 

@@ -99,38 +99,38 @@ private List <Story> mStoryList=new ArrayList<>();
 
 
 
-        mStoryList.add(new Story("التحية والتعارف","Greetings and acquaintance",R.drawable.story1
+        mStoryList.add(new Story("التحية والتعارف","Greetings and acquaintance",R.drawable.number1
                 ,R.drawable.number1));
-        mStoryList.add(new Story("الأسرة","Family",R.drawable.story2,
+        mStoryList.add(new Story("الأسرة","Family",R.drawable.number1,
                 R.drawable.number2));
-        mStoryList.add(new Story("السكن","Living",R.drawable.story3
+        mStoryList.add(new Story("السكن","Living",R.drawable.number1
                 ,R.drawable.number3));
         mStoryList.add(new Story("الحياة اليومية","Daily life"
-                ,R.drawable.story4,R.drawable.number4));
-        mStoryList.add(new Story("الطعام والشراب","Food and drinks",R.drawable.story5
+                ,R.drawable.number1,R.drawable.number4));
+        mStoryList.add(new Story("الطعام والشراب","Food and drinks",R.drawable.number1
                 ,R.drawable.number5));
-        mStoryList.add(new Story("الصلاة","Praying",R.drawable.story6,
+        mStoryList.add(new Story("الصلاة","Praying",R.drawable.number1,
                 R.drawable.number6));
-        mStoryList.add(new Story("الدراسة","Studying",R.drawable.story7
+        mStoryList.add(new Story("الدراسة","Studying",R.drawable.number1
                 ,R.drawable.number7));
-        mStoryList.add(new Story("العمل","work",R.drawable.story8
+        mStoryList.add(new Story("العمل","work",R.drawable.number1
                 ,R.drawable.number8));
-        mStoryList.add(new Story("التسوق","Shopping",R.drawable.story9,
+        mStoryList.add(new Story("التسوق","Shopping",R.drawable.number1,
                 R.drawable.number9));
-        mStoryList.add(new Story("الجو","Weather",R.drawable.story10
-                ,R.drawable.number10));
+        mStoryList.add(new Story("الجو","Weather",R.drawable.number1
+                ,R.drawable.number1));
         mStoryList.add(new Story("الناس والأماكن","People and places"
-                ,R.drawable.story11,R.drawable.number11));
-        mStoryList.add(new Story("الهوايات","Hobbies",R.drawable.story12
-                ,R.drawable.number12));
-        mStoryList.add(new Story("السفر","traveling",R.drawable.story13,
-                R.drawable.number13));
-        mStoryList.add(new Story("الحج والعمرة","Hajj and Umrah",R.drawable.story14
-                ,R.drawable.number14));
+                ,R.drawable.number1,R.drawable.number1));
+        mStoryList.add(new Story("الهوايات","Hobbies",R.drawable.number1
+                ,R.drawable.number1));
+        mStoryList.add(new Story("السفر","traveling",R.drawable.number1,
+                R.drawable.number1));
+        mStoryList.add(new Story("الحج والعمرة","Hajj and Umrah",R.drawable.number1
+                ,R.drawable.number1));
        mStoryList.add(new Story("الصحة","Health"
-               ,R.drawable.story15,R.drawable.number15));
+               ,R.drawable.number1,R.drawable.number1));
         mStoryList.add(new Story("العطلة","Vacation"
-                ,R.drawable.story16,R.drawable.number16));
+                ,R.drawable.number1,R.drawable.number1));
 
 
 
